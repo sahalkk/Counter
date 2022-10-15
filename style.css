@@ -5,7 +5,13 @@
 body{
     min-height: 100vh;
 }
-
+.header{
+    font-size: 30px;
+}
+.header:hover{
+    font-size:40px;
+    color: crimson;
+}
 .main{
     min-height: 100vh;
     display: flex;
