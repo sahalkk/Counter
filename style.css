@@ -19,12 +19,42 @@ body{
     align-items: center;
     justify-content: center;
 }
-
+.cir{
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.buttons{
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 90px;
+}
+#circle {
+    background: #cfcfcf;
+    width: 128px;
+    height: 128px;
+    border-radius: 64px;
+    border: 2px solid #000;
+    
+  }
+  #circle div {
+    position: relative;
+    left: 19px;
+    top: 19px;
+    width: 90px;
+    height: 90px;
+    color: #000;
+    text-align: center;
+    
+  }
 .counter-value{
     font-size: 50px;
     margin: 20px;
+    padding
 }
 
-.buttons{
-    
-}
